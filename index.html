@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="mystyle.css">
+	<title>Tic Tac Toe</title>
+</head>
+
+<body>
+	<h2>Tic Tac Toe</h2>
+	<button id="reset">Reset Game</button>
+	<br><br>
+	<div id="tally">
+		<div id="tally-title">Tally Board</div>
+		<div id="players-tally"></div>
+	</div>
+	<br>
+	<div>
+		<div class="input-label">Name Players</div>
+		<input id="player1-name-input" placeholder="Enter player1's name">
+		<button id="player1-name-submit" class="player-name-submit">Submit</button>
+		<input id="player2-name-input" placeholder="Enter player2's name">
+		<button id="player2-name-submit" class="player-name-submit">Submit</button>
+	</div>
+	<br>
+	<table class="game-table">
+		<tr>
+			<th id="cell-index-0" class="cell">Click</th>
+			<th id="cell-index-1" class="cell">Click</th>
+			<th id="cell-index-2" class="cell">Click</th>
+		</tr>
+		<tr>
+			<th id="cell-index-3" class="cell">Click</th>
+			<th id="cell-index-4" class="cell">Click</th>
+			<th id="cell-index-5" class="cell">Click</th>
+		</tr>
+		<tr>
+			<th id="cell-index-6" class="cell">Click</th>
+			<th id="cell-index-7" class="cell">Click</th>
+			<th id="cell-index-8" class="cell">Click</th>
+		</tr>
+	</table>
+	<br>
+	<div id="message">Game has not started yet! Click to play!</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+	<script src="app.js"></script>
+</body>
+
+</html>
