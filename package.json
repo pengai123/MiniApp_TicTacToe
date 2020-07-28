@@ -1,0 +1,23 @@
+{
+  "name": "miniapp_tictactoe",
+  "version": "1.0.0",
+  "description": "mini app tictactoe",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pengai123/MiniApp_TicTacToe.git"
+  },
+  "author": "Peng Ai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pengai123/MiniApp_TicTacToe/issues"
+  },
+  "homepage": "https://github.com/pengai123/MiniApp_TicTacToe#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

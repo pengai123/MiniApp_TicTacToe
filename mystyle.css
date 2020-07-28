@@ -3,19 +3,20 @@ body {
 }
 
 h2 {
-	color:darkslateblue;
+	color: black;
 	font-family: 'Courier New', Courier, monospace;
 }
 
 
 th{
-	height: 100px;
-	width: 100px;
+	height: 90px;
+	width: 90px;
 	border-radius: 10px;
 	border: 1px solid;
 	font-family: fantasy;
-	font-size: x-large;
+	font-size: xx-large;
 	cursor: pointer;
+	background-color: lightseagreen;
 }
 
 #reset {
